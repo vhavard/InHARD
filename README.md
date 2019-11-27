@@ -6,5 +6,5 @@
 the dataset can be downloaded [here](https://recherche.cesi.fr/) **TODO change the link**
 
 
-![dataset example](./rsc/InHard_dataset.png =640x)
+![dataset example](rsc/InHard_dataset.png)
 
