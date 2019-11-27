@@ -1,5 +1,5 @@
 # InHARD - Industrial Human Action Recognition Dataset  
-
+**Authors**: Mejdi DALLEL, Vincent HAVARD, David BAUDRY
 ## Objectives
 This dataset is proposed
 
