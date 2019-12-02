@@ -37,7 +37,7 @@ Inside the InHARD.zip datatset, you will find the **InHARD.csv** file. It provid
 See an extract below:  
 
 | File_name | Subject | Operation | Action_label | Meta_action_number | Meta_action_label | Action_start_bvh_frame | Action_end_bvh_frame | Action_start_rgb_sec | Action_end_rgb_sec | Action_start_rgb_frame | Action_end_rgb_frame | Duration | 
-| ------------- |:-------------:|:-----------------------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:| -----:|
+|:-------------:|:-------------:|:-----------------------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-----:|
 | P01_R01 | P01 | OP010 | [OP010] Consult sheets | 2 | Consult sheets | 323 | 1071 | 2.72 | 9.00 | 68 | 225 | 6.28 | 
 | P01_R01 | P01 | OP010 | [OP010] Catch Fixture key  LARD | 7 | Picking left | 1342 | 1528 | 11.28 | 12.84 | 282 | 321 | 1.56 | 
 | P01_R01 | P01 | OP010 | [OP010] Place LARD on Profile P360-1 | 12 | Assemble system | 1647 | 2247 | 13.84 | 18.88 | 346 | 472 | 5.04 | 
