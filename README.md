@@ -40,11 +40,11 @@ See an extract below:
 
 | File_name | Subject | Operation | Action_label | Meta_action_number | Meta_action_label | Action_start_bvh_frame | Action_end_bvh_frame | Action_start_rgb_sec | Action_end_rgb_sec | Action_start_rgb_frame | Action_end_rgb_frame | Duration | 
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:| -----:|
-| 0 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Consult sheets | 2 | Consult sheets | 323 | 1071 | 2.72 | 9.00 | 68 | 225 | 6.28 | 
-| 1 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Catch Fixture key  LARD | 7 | Picking left | 1342 | 1528 | 11.28 | 12.84 | 282 | 321 | 1.56 | 
-| 2 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Place LARD on Profile P360-1 | 12 | Assemble system | 1647 | 2247 | 13.84 | 18.88 | 346 | 472 | 5.04 | 
-| 3 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Catch Fixation FIXA1 | 6 | Picking in front | 2775 | 3028 | 23.32 | 25.44 | 583 | 636 | 2.12 | 
-| 4 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Place FIXA1 on LARD at 160mm | 12 | Assemble system | 3151 | 3428 | 26.48 | 28.80 | 662 | 720 | 2.32 | 
+| P01_R01 | P01 | OP010 | [OP010] Consult sheets | 2 | Consult sheets | 323 | 1071 | 2.72 | 9.00 | 68 | 225 | 6.28 | 
+| P01_R01 | P01 | OP010 | [OP010] Catch Fixture key  LARD | 7 | Picking left | 1342 | 1528 | 11.28 | 12.84 | 282 | 321 | 1.56 | 
+| P01_R01 | P01 | OP010 | [OP010] Place LARD on Profile P360-1 | 12 | Assemble system | 1647 | 2247 | 13.84 | 18.88 | 346 | 472 | 5.04 | 
+| P01_R01 | P01 | OP010 | [OP010] Catch Fixation FIXA1 | 6 | Picking in front | 2775 | 3028 | 23.32 | 25.44 | 583 | 636 | 2.12 | 
+| P01_R01 | P01 | OP010 | [OP010] Place FIXA1 on LARD at 160mm | 12 | Assemble system | 3151 | 3428 | 26.48 | 28.80 | 662 | 720 | 2.32 | 
 
 
 ## Experiments and performance metrics
