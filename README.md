@@ -7,15 +7,6 @@ This dataset is proposed
 The download link will be updated after reviewing process.  
 **Reviewers**, please contact the main author for getting the link of the dataset.  
 
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-
 ![dataset example](rsc/InHard_dataset.png)
 
 ## File naming convention  
@@ -47,13 +38,14 @@ The list of **13 meta-actions** and **74 actions** classes are available in the 
 Inside the InHARD.zip datatset, you will find the **InHARD.csv** file. It provides a dataframe with all info including Filename, Subject, Operation, Action low/high level label, Action start/end, Duration etc. in order to facilitate the dataset handling and use.  
 See an extract below:  
 
-|File_name|Subject|Operation|Action_label|Meta_action_number|Meta_action_label|Action_start_bvh_frame|Action_end_bvh_frame|Action_start_rgb_sec|Action_end_rgb_sec|Action_start_rgb_frame|Action_end_rgb_frame|Duration|
-|-|-|-|-|-|-|-|-|-|-|-|-|
-|0|D01_P01_R01_C01_C02_C03_OP|P01|OP010|[OP010] Consulter les Fiches|2|Consult sheets|323|1071|2.72|9.00|68|225|6.28|
-|1|D01_P01_R01_C01_C02_C03_OP|P01|OP010|[OP010] Attraper le Lardon LARD|7|Picking left|1342|1528|11.28|12.84|282|321|1.56|
-|2|D01_P01_R01_C01_C02_C03_OP|P01|OP010|[OP010] Placer LARD sur le Profil P360-1|12|Assemble system|1647|2247|13.84|18.88|346|472|5.04|
-|3|D01_P01_R01_C01_C02_C03_OP|P01|OP010|[OP010] Attraper la Fixation FIXA1|6|Picking in front|2775|3028|23.32|25.44|583|636|2.12|
-|4|D01_P01_R01_C01_C02_C03_OP|P01|OP010|[OP010] Placer FIXA1 sur LARD à 160mm|12|Assemble system|3151|3428|26.48|28.80|662|720|2.32|
+| File_name | Subject | Operation | Action_label | Meta_action_number | Meta_action_label | Action_start_bvh_frame | Action_end_bvh_frame | Action_start_rgb_sec | Action_end_rgb_sec | Action_start_rgb_frame | Action_end_rgb_frame | Duration | 
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:| -----:|
+| 0 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Consulter les Fiches | 2 | Consult sheets | 323 | 1071 | 2.72 | 9.00 | 68 | 225 | 6.28 | 
+| 1 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Attraper le Lardon LARD | 7 | Picking left | 1342 | 1528 | 11.28 | 12.84 | 282 | 321 | 1.56 | 
+| 2 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Placer LARD sur le Profil P360-1 | 12 | Assemble system | 1647 | 2247 | 13.84 | 18.88 | 346 | 472 | 5.04 | 
+| 3 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Attraper la Fixation FIXA1 | 6 | Picking in front | 2775 | 3028 | 23.32 | 25.44 | 583 | 636 | 2.12 | 
+| 4 | D01_P01_R01_C01_C02_C03_OP | P01 | OP010 | [OP010] Placer FIXA1 sur LARD à 160mm | 12 | Assemble system | 3151 | 3428 | 26.48 | 28.80 | 662 | 720 | 2.32 | 
+
 
 ## Experiments and performance metrics
 
