@@ -12,7 +12,7 @@ The download link will be updated after reviewing process.
 ## File naming convention  
 
 ## Modalities  
-### Skeleton modality
+### Skeleton modality 
 We used a “Combination Perception Neuron 32 Edition v2” motion sensor to capture the skeletal data delivered at a frequency of 120 Hz.  
 Skeleton data comprises :
 * the 3D locations (Tx, Ty and Tz) of 17 major body joints
