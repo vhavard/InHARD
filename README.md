@@ -36,7 +36,7 @@ The list of **13 meta-actions** and **74 actions** classes are available in the 
 Inside the InHARD.zip datatset, you will find the **InHARD.csv** file which provides a dataframe with all dataset info including Filename, Subject, Operation, Action low/high level label, Action start/end, Duration etc. in order to facilitate the dataset handling and use.  
 See an extract below:  
 
-| File_name | Subject | Operation | Action_label | Meta_action_number | Meta_action_label | Action_start_bvh_frame | Action_end_bvh_frame | Action_start_rgb_sec | Action_end_rgb_sec | Action_start_rgb_frame | Action_end_rgb_frame | Duration | 
+| File_name | Subject | Operation | Action_label | Meta_action_number | Meta_action_label | Action_start_bvh_frame | Action_end_bvh_frame | Action_start_rgb_sec | Action_end_rgb_sec | Action_start_rgb_frame | Action_end_rgb_frame | Duration_sec | 
 |:-------------:|:-------------:|:-----------------------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-----:|
 | P01_R01 | P01 | OP010 | [OP010] Consult sheets | 2 | Consult sheets | 323 | 1071 | 2.72 | 9.00 | 68 | 225 | 6.28 | 
 | P01_R01 | P01 | OP010 | [OP010] Catch Fixture key  LARD | 7 | Picking left | 1342 | 1528 | 11.28 | 12.84 | 282 | 321 | 1.56 | 
