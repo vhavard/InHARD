@@ -5,7 +5,7 @@ In this paper we introduce an RGB+S dataset named “Industrial Human Action Rec
 
 ## Dataset description
 The download link will be updated after reviewing process.  
-**Reviewers**, please contact the main author for getting the link of the dataset.  
+**Reviewers**, please contact the main author to get the download link of the dataset.  
 
 ![dataset example](rsc/InHard_dataset.png)
 
@@ -13,27 +13,27 @@ The download link will be updated after reviewing process.
 ### Skeleton modality 
 We used a “Combination Perception Neuron 32 Edition v2” motion sensor to capture the skeletal data delivered at a frequency of 120 Hz.  
 Skeleton data comprises :
-* the 3D locations (Tx, Ty and Tz) of 17 major body joints
-* the 3 rotations around each axis (Rx, Ry and Rz)  
-Skeleton data are saved into **BVH format** files and stored in the **Skeleton/ folder** of the InHARD dataset.  
+* The 3D locations (Tx, Ty and Tz) of 17 major body joints
+* The 3 rotations around each axis (Rx, Ry and Rz)  
+Skeleton data are saved into **BVH format** files and are stored in the **Skeleton/ folder** of the InHARD dataset.  
 
-<center><img src="rsc/Skeleton-joints-hierarchy.png" alt="Skeleton-joints-hierarchy">  </center>
+<center><img src="rsc/Skeleton-joints-hierarchy.png" alt="Skeleton-joints-hierarchy"></center>
 
-For manipulating BVH files, we recommand the [PyMO python library](https://github.com/omimo/PyMO/)
+To manipulate BVH files, we recommand using the [PyMO python library](https://github.com/omimo/PyMO/)
 
 ### Video modality
-Each camera captures three different views of the same action. For each setup, two cameras were placed at the same height but at two different horizontal angles: -45° and +45° to capture both left and right sides. The third camera is placed on top of the subjects to capture the top view. 
+We used 3 C920 cameras to capture RGB Data. Each camera captures three different views of the same action. For each setup, two cameras were placed at the same height but at two different horizontal angles: -45° and +45° to capture both left and right sides. The third camera is placed on top of the subjects to capture the top view. 
 
 * Camera 1 always observes top views and is displayed on the top left quarter of the RGB video. 
 * Camera 2 observes left side views and is shown on the top right quarter of the RGB video. 
 * Camera 3 observes right side views and is displayed on the bottom right quarter of the RGB video as shown in figure above
 
-Files are stored in the **RGB/ folder** of the InHARD dataset.
+RGB files are stored in the **RGB/ folder** of the InHARD dataset.
 
 ## Action Classes
 The list of **13 meta-actions** and **74 actions** classes are available in the [Action-Meta-action-list.xlsx](rsc/Action-Meta-action-list.xlsx) file
 
-Inside the InHARD.zip datatset, you will find the **InHARD.csv** file. It provides a dataframe with all info including Filename, Subject, Operation, Action low/high level label, Action start/end, Duration etc. in order to facilitate the dataset handling and use.  
+Inside the InHARD.zip datatset, you will find the **InHARD.csv** file which provides a dataframe with all dataset info including Filename, Subject, Operation, Action low/high level label, Action start/end, Duration etc. in order to facilitate the dataset handling and use.  
 See an extract below:  
 
 | File_name | Subject | Operation | Action_label | Meta_action_number | Meta_action_label | Action_start_bvh_frame | Action_end_bvh_frame | Action_start_rgb_sec | Action_end_rgb_sec | Action_start_rgb_frame | Action_end_rgb_frame | Duration | 
@@ -47,13 +47,18 @@ See an extract below:
 
 ## Experiments and performance metrics
 
-S_train={P01_R01, P01_R03, P03_R01, P03_R03, P03_R04, P04_R02, P05_R03, P05_R04, P06_R01, P07_R01, P07_R02, P08_R02, P08_R04, P09_R01, P09_R03, P10_R01, P10_R02, P10_R03, P11_R02, P12_R01, P12_R02, P13_R02, P14_R01, P15_R01, P15_R02, P16_R02}  
-S_val={P01_R02, P02_R01, P02_R02, P04_R01, P05_R01, P05_R02, P08_R01, P08_R03, P09_R02, P11_R01, P14_R02, P16_R01}  
-
-
+We propose a set of usage metrics of the InHARD dataset for future utilization. 
+Firstly, we suggest dividing data into two levels; experts and beginners according to subject’s expertise with the manipulation. 
+Thereby, all subjects performing the whole manipulation in less than 6 minutes as average total actions' duration, are selected as experts. The remaining subjects are categorized as beginners. 
+We define the training and validation sets as follows : 
+<code>
+_S_train_={P01_R01, P01_R03, P03_R01, **P03_R03**, P03_R04, P04_R02, P05_R03, P05_R04, P06_R01, **P07_R01**, **P07_R02**, P08_R02, **P08_R04**, **P09_R01**, P09_R03, P10_R01, P10_R02, **P10_R03**, P11_R02, P12_R01, P12_R02, P13_R02, **P14_R01**, **P15_R01**, **P15_R02**, P16_R02}  
+_S_val_={P01_R02, P02_R01, **P02_R02**, P04_R01, P05_R01, P05_R02, P08_R01, **P08_R03**, **P09_R02**, P11_R01, **P14_R02**, P16_R01}  
+</code>
+PS : Samples in bold are selected as Experts. The remaining are selected as beginners.
 
 ## Citation
-For citing this work, please use:  
+To cite this work, please use:  
 ``` 
-Available after reviewing process
+Available after reviewing process.
 ```
