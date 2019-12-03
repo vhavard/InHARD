@@ -51,6 +51,7 @@ We propose a set of usage metrics of the InHARD dataset for future utilization.
 Firstly, we suggest dividing data into two levels; experts and beginners according to subject’s expertise with the manipulation. 
 Thereby, all subjects performing the whole manipulation in less than 6 minutes as average total actions' duration, are selected as experts. The remaining subjects are categorized as beginners. 
 We define the training and validation sets as follows :  
+  
 <code>
 _S_train_={P01_R01, P01_R03, P03_R01, **P03_R03**, P03_R04, P04_R02, P05_R03, P05_R04, P06_R01, **P07_R01**, **P07_R02**, P08_R02, **P08_R04**, **P09_R01**, P09_R03, P10_R01, P10_R02, **P10_R03**, P11_R02, P12_R01, P12_R02, P13_R02, **P14_R01**, **P15_R01**, **P15_R02**, P16_R02}    
 </code>  
@@ -59,7 +60,7 @@ _S_train_={P01_R01, P01_R03, P03_R01, **P03_R03**, P03_R04, P04_R02, P05_R03, P0
 _S_val_={P01_R02, P02_R01, **P02_R02**, P04_R01, P05_R01, P05_R02, P08_R01, **P08_R03**, **P09_R02**, P11_R01, **P14_R02**, P16_R01}   
 </code>
   
-PS : Samples in bold are selected as Experts. The remaining are selected as beginners.  
+  PS : Samples in bold are selected as Experts. The remaining are selected as beginners.  
 
 ## Citation
 To cite this work, please use:  
