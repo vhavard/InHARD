@@ -17,7 +17,9 @@ Skeleton data comprises :
 * The 3 rotations around each axis (Rx, Ry and Rz)  
 Skeleton data are saved into **BVH format** files and are stored in the **Skeleton/ folder** of the InHARD dataset.  
 
-<center><img align="center" src="rsc/Skeleton-joints-hierarchy.png" alt="Skeleton-joints-hierarchy"></center>
+<p align="center">
+	<img src="rsc/Skeleton-joints-hierarchy.png" alt="Skeleton-joints-hierarchy">
+</p>
 
 To manipulate BVH files, we recommand using the [PyMO python library](https://github.com/omimo/PyMO/)
 
