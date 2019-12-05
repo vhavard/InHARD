@@ -46,6 +46,7 @@ See an extract below:
 | P01_R01 | P01 | OP010 | [OP010] Catch Fixation FIXA1 | 6 | Picking in front | 2775 | 3028 | 23.32 | 25.44 | 583 | 636 | 2.12 | 
 | P01_R01 | P01 | OP010 | [OP010] Place FIXA1 on LARD at 160mm | 12 | Assemble system | 3151 | 3428 | 26.48 | 28.80 | 662 | 720 | 2.32 | 
 
+We used a software called [ANVIL](https://www.anvil-software.org/) to label our data. You can install it if you want to edit, add or remove actions from actions' labels files (.anvil) situated at the /Labels/ folder.
 
 ## Experiments and performance metrics
 
