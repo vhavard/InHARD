@@ -1,7 +1,7 @@
 # InHARD - Industrial Human Action Recognition Dataset  
 
 ## Objectives
-We introduce a RGB+S dataset named “Industrial Human Action Recognition Dataset” (InHARD) from a real-world setting for industrial human action recognition with over 2 million frames, collected from 16 distinct subjects. This dataset contains 13 different industrial action classes and over 4800 action samples. The introduction of this dataset should allow us the study and development of various learning techniques for the task of human actions analysis inside industrial environments involving human robot collaborations.
+We introduce a RGB+S dataset named “Industrial Human Action Recognition Dataset” (InHARD) from a real-world setting for industrial human action recognition with over 2 million frames, collected from 16 distinct subjects. This dataset contains 13 different industrial action classes and over 4800 action samples. The introduction of this dataset should allow us the study and development of various learning techniques for the task of human actions analysis inside industrial environments involving human robot collaborations. The work is done by LINEACT CESI https://recherche.cesi.fr/inhard-industrial-human-action-recognition-dataset/
 
 ## Dataset description
 The download link will be updated after reviewing process.  
