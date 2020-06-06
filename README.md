@@ -60,14 +60,14 @@ We define the training and validation sets as follows :
 **PS** : Samples in bold are selected as Experts. The remaining are selected as beginners.  
 
 ## Citation
-To cite this work, please use:  
+To cite this work, please use:
 ``` 
 @InProceedings{inhard2020ichms,
-    author       = {Mejdi DALLEL, Vincent HAVARD, David BAUDRY, Xavier SAVATIER},
-    title        = {An Industrial Human Action Recogniton Dataset in the Context of Industrial Collaborative Robotics},
-    booktitle    = {IEEE International Conference on Human-Machine Systems ICHMS},
-    month        = Postponed due to COVID-19,
-    year         = {2020},
-    url          = {https://github.com/vhavard/InHARD}
-    }
+      author = {Mejdi DALLEL, Vincent HAVARD, David BAUDRY, Xavier SAVATIER},
+      title = {InHARD - An Industrial Human Action Recogniton Dataset in the Context of Industrial Collaborative Robotics},
+      booktitle = {IEEE International Conference on Human-Machine Systems ICHMS},
+      month = September,
+      year = {2020},
+      url = {https://recherche.cesi.fr/inhard-industrial-human-action-recognition-dataset/}
+}
 ```
