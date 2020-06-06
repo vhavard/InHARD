@@ -59,6 +59,11 @@ We define the training and validation sets as follows :
 
 **PS** : Samples in bold are selected as Experts. The remaining are selected as beginners.  
 
+## Download
+
+The dataset is available for download from this link : https://bit.ly/2Uh8lCs
+Password : InHARD_2019
+
 ## Citation
 To cite this work, please use:
 ``` 
