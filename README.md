@@ -63,8 +63,6 @@ We define the training and validation sets as follows :
 
 The dataset is available for download from this link : https://bit.ly/InHARD_Dataset
 
-**Password : InHARD_2019**
-
 ## Citation
 To cite this work, please use:
 ``` 
