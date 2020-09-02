@@ -61,7 +61,7 @@ We define the training and validation sets as follows :
 
 ## Download
 
-The dataset is available for download from this link : https://bit.ly/InHARD_Dataset
+The dataset is available for download from this link : https://zenodo.org/record/4003541
 
 ## Citation
 To cite this work, please use:
