@@ -61,7 +61,7 @@ We define the training and validation sets as follows :
 
 ## Download
 
-The dataset can be downloaded from this link : <a href="https://zenodo.org/record/4003541" target="blank"></a> 
+The dataset can be downloaded from this link : <a href="https://zenodo.org/record/4003541" target="blank">Download</a> 
 
 ## Citation
 To cite this work, please use:
