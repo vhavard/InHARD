@@ -61,14 +61,14 @@ We define the training and validation sets as follows :
 
 ## Download
 
-The dataset is available for download from this link : https://zenodo.org/record/4003541
+The dataset can be downloaded from this link : https://zenodo.org/record/4003541
 
 ## Citation
 To cite this work, please use:
 ``` 
 @InProceedings{inhard2020ichms,
       author = {Mejdi DALLEL, Vincent HAVARD, David BAUDRY, Xavier SAVATIER},
-      title = {InHARD - An Industrial Human Action Recogniton Dataset in the Context of Industrial Collaborative Robotics},
+      title = {InHARD - Industrial Human Action Recognition Dataset in the Context of Industrial Collaborative Robotics},
       booktitle = {IEEE International Conference on Human-Machine Systems ICHMS},
       month = September,
       year = {2020},
