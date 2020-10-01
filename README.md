@@ -72,6 +72,6 @@ To cite this work, please use:
       booktitle = {IEEE International Conference on Human-Machine Systems ICHMS},
       month = September,
       year = {2020},
-      url = {https://recherche.cesi.fr/inhard-industrial-human-action-recognition-dataset/}
+      url = {https://ieeexplore.ieee.org/document/9209531 }
 }
 ```
