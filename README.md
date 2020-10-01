@@ -66,12 +66,12 @@ We define the training and validation sets as follows :
 ## Citation
 To cite this work, please use:
 ``` 
-@InProceedings{inhard2020ichms,
-      author = {Mejdi DALLEL, Vincent HAVARD, David BAUDRY, Xavier SAVATIER},
-      title = {InHARD - Industrial Human Action Recognition Dataset in the Context of Industrial Collaborative Robotics},
-      booktitle = {IEEE International Conference on Human-Machine Systems ICHMS},
-      month = September,
-      year = {2020},
-      url = {https://ieeexplore.ieee.org/document/9209531}
-}
+@INPROCEEDINGS{9209531,  
+author={M. {DALLEL} and V. {HAVARD} and D. {BAUDRY} and X. {SAVATIER}},  
+booktitle={2020 IEEE International Conference on Human-Machine Systems (ICHMS)},   
+title={InHARD - Industrial Human Action Recognition Dataset in the Context of Industrial Collaborative Robotics},   
+year={2020},  
+volume={},  
+number={},  
+pages={1-6},}
 ```
