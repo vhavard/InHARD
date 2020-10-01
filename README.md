@@ -5,6 +5,10 @@ We introduce a RGB+S dataset named “Industrial Human Action Recognition Datase
 
 This work has been performed at the LINEACT - CESI laboratory : https://recherche.cesi.fr/inhard-industrial-human-action-recognition-dataset/
 
+## Download
+
+The dataset can be downloaded from this link : https://zenodo.org/record/4003541
+
 ## Dataset description
 
 ![dataset example](rsc/InHard_dataset.png)
@@ -58,10 +62,6 @@ We define the training and validation sets as follows :
 * S_val={P01_R02, P02_R01, **P02_R02**, P04_R01, P05_R01, P05_R02, P08_R01, **P08_R03**, **P09_R02**, P11_R01, **P14_R02**, P16_R01}
 
 **PS** : Samples in bold are selected as Experts. The remaining are selected as beginners.  
-
-## Download
-
-The dataset can be downloaded from this link : https://zenodo.org/record/4003541
 
 ## Citation
 To cite this work, please use:
