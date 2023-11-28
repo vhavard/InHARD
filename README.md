@@ -7,7 +7,8 @@ This work has been performed at the LINEACT - CESI laboratory : https://recherch
 
 ## Download
 
-The dataset can be downloaded from this link : https://zenodo.org/record/4003541
+The dataset can be downloaded from this link : https://zenodo.org/record/4003541  
+Results on this dataset can be published on Paper with code at this URL: https://paperswithcode.com/dataset/inhard
 
 ## Dataset description
 
