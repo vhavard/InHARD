@@ -65,14 +65,17 @@ We define the training and validation sets as follows :
 **PS** : Samples in bold are selected as Experts. The remaining are selected as beginners.  
 
 ## Citation
+Link to the publication: https://ieeexplore.ieee.org/document/9209531  
 To cite this work, please use:
 ``` 
-@INPROCEEDINGS{9209531,  
-author={M. {DALLEL} and V. {HAVARD} and D. {BAUDRY} and X. {SAVATIER}},  
-booktitle={2020 IEEE International Conference on Human-Machine Systems (ICHMS)},   
-title={InHARD - Industrial Human Action Recognition Dataset in the Context of Industrial Collaborative Robotics},   
-year={2020},  
-volume={},  
-number={},  
-pages={1-6},}
+@inproceedings{dallel_inhard_2020,
+	title = {{InHARD} - {Industrial} {Human} {Action} {Recognition} {Dataset} in the {Context} of {Industrial} {Collaborative} {Robotics}},
+	doi = {10.1109/ICHMS49158.2020.9209531},
+	booktitle = {2020 {IEEE} {International} {Conference} on {Human}-{Machine} {Systems} ({ICHMS})},
+	author = {Dallel, Mejdi and Havard, Vincent and Baudry, David and Savatier, Xavier},
+	month = sep,
+	year = {2020},
+	keywords = {RNN, Skeleton, Industry 4.0, LSTM, HAR, learning (artificial intelligence), Task analysis, Cameras, actual action recognition datasets, actual industrial human actions, business productivity, Collaboration, data analysis, Dataset, Deep Learning, health related actions, Human Action Recognition, human actions analysis, human robot collaboration, human robot collaborations, Human-Robot Collaboration (HRC), human-robot interaction, industrial action classes, Industrial collaborative robotics, industrial environment, Industrial Human Action Recognition, Industrial Human Action Recognition Dataset, machine learning algorithms, mutual actions, pose estimation, product quality, RGB+D, robot vision, Sensors, Service robots, dataset},
+	pages = {1--6},
+}
 ```
