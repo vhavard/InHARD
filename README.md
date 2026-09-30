@@ -11,7 +11,7 @@ The dataset can be downloaded from this link : https://zenodo.org/record/4003541
 
 ## Dataset description
 
-![dataset example](rsc/InHard_dataset.png)
+![dataset example](rsc/InHard_dataset-v2.png)
 
 ## Modalities  
 ### Skeleton modality 
